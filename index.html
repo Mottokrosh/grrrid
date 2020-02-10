@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Grrrid—The Only CSS Grid Framework You'll Ever Need</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="grrrid.css">
+  <style>
+    body { font-family: system-ui, sans-serif; }
+    main, footer {
+      max-width: 900px;
+      margin: auto;
+      padding: 1rem;
+    }
+    footer {
+      font-size: 0.8rem;
+      color: hotpink;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Grrrid—The Only CSS Grid Framework You'll Ever Need</h1>
+
+    <h2>Features</h2>
+    <ul>
+      <li>Configurable</li>
+      <li>Responsive</li>
+      <li>Works with CSS Modules and BEM</li>
+      <li>ES6 compliant</li>
+      <li>Tuned for performance</li>
+    </ul>
+
+    <h2>Demo</h2>
+    <section style="--itemWidth: 12rem; --gridGap: 1rem" class="grrrid">
+      <img src="https://picsum.photos/400">
+      <img src="https://picsum.photos/400">
+      <img src="https://picsum.photos/400">
+      <img src="https://picsum.photos/400">
+      <img src="https://picsum.photos/400">
+      <img src="https://picsum.photos/400">
+      <img src="https://picsum.photos/400">
+      <img src="https://picsum.photos/400">
+    </section>
+
+    <h2>Code</h2>
+    <code>
+      <pre>
+&lt;section style="--itemWidth: 200; --gridGap: 1em" class="grrrid">
+  &lt;img src="https://picsum.photos/400">
+  &lt;img src="https://picsum.photos/400">
+  &lt;img src="https://picsum.photos/400">
+  &lt;img src="https://picsum.photos/400">
+  &lt;img src="https://picsum.photos/400">
+  &lt;img src="https://picsum.photos/400">
+  &lt;img src="https://picsum.photos/400">
+  &lt;img src="https://picsum.photos/400">
+&lt;/section>
+      </pre>
+    </code>
+
+    <h2>License</h2>
+    <p><a href="http://creativecommons.org/licenses/by/4.0/" target="_blank">Attribution 4.0 International</a></p>
+  </main>
+
+  <footer>
+    <p>Made with a certain amount of tongue in cheek by <a href="https://twitter.com/mottokrosh">Mottokrosh</a>.<p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,10 @@
+.grrrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(var(--itemWidth, 300px), 1fr));
+  grid-gap: var(--gridGap, 1rem);
+}
+
+.grrrid img {
+  max-width: 100%;
+  width: 100%;
+}
