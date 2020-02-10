@@ -1,6 +1,6 @@
 # Grrrid
 
-The Only CSS Grid Framework You'll Ever Need
+The only CSS grid framework you'll ever need.
 
 ## Features
 - Configurable
