@@ -1,6 +1,6 @@
 # Grrrid
 
-The only CSS grid framework you'll ever need.
+The only CSS grid framework you'll ever need. [View Demo](https://mottokrosh.github.io/grrrid/).
 
 ## Features
 - Configurable
